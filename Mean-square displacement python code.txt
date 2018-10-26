@@ -1,8 +1,0 @@
-import numpy as np
-    r = np.sqrt(xdata**2 + ydata**2)
-    diff = np.diff(r) #this calculates r(t + dt) - r(t)
-    diff_sq = diff**2
-    MSD = np.mean(diff_sq)
-
-
-# this should work
